@@ -1,0 +1,9 @@
+############ IGNORE BACKEND ############
+
+# Virtualenv
+**/venv
+
+# OpenSSL self-signed cert for Hypercorn
+**/*.pem
+
+############ IGNORE FRONTEND ############
