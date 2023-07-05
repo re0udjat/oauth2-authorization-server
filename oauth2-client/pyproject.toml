@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "oauth2-client"
+version = "0.1.0"
+description = ""
+authors = ["re0udjat <cuongnguyenletuan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "oauth2_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+litestar = {extras = ["jinja"], version = "^2.0.0b2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
